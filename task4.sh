@@ -1,6 +1,4 @@
-wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb
-sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
-sudo apt install mysql-server
-sudo mysql_secure_installation
-sudo mysql_secure_installation
-sudo apt-get install mysql-workbench-community
+# Для установки и удаления deb-пакета с помощью dpkg необходимо использовать команды dpkg -i и dpkg -r. Например:
+sudo dpkg -i package.deb
+sudo dpkg -r package
+# Где package.deb - это имя устанавливаемого пакета, а package - имя удаляемого пакета.
